@@ -1,0 +1,1120 @@
+{
+    "2026": {
+        "national": [
+            {
+                "date": "2026-01-01",
+                "name": "Confraternização Universal",
+                "type": "Nacional"
+            },
+            {
+                "date": "2026-02-17",
+                "name": "Carnaval",
+                "type": "Nacional (Ponto Facultativo)"
+            },
+            {
+                "date": "2026-04-03",
+                "name": "Sexta-feira Santa",
+                "type": "Nacional"
+            },
+            {
+                "date": "2026-04-21",
+                "name": "Tiradentes",
+                "type": "Nacional"
+            },
+            {
+                "date": "2026-05-01",
+                "name": "Dia do Trabalho",
+                "type": "Nacional"
+            },
+            {
+                "date": "2026-06-04",
+                "name": "Corpus Christi",
+                "type": "Nacional (Ponto Facultativo)"
+            },
+            {
+                "date": "2026-09-07",
+                "name": "Independência do Brasil",
+                "type": "Nacional"
+            },
+            {
+                "date": "2026-10-12",
+                "name": "Nossa Senhora Aparecida",
+                "type": "Nacional"
+            },
+            {
+                "date": "2026-11-02",
+                "name": "Finados",
+                "type": "Nacional"
+            },
+            {
+                "date": "2026-11-15",
+                "name": "Proclamação da República",
+                "type": "Nacional"
+            },
+            {
+                "date": "2026-11-20",
+                "name": "Dia de Zumbi e da Consciência Negra",
+                "type": "Nacional"
+            },
+            {
+                "date": "2026-12-25",
+                "name": "Natal",
+                "type": "Nacional"
+            }
+        ],
+        "state": [
+            {
+                "date": "2026-01-04",
+                "name": "Criação do Estado",
+                "state": "RO",
+                "type": "Estadual"
+            },
+            {
+                "date": "2026-03-06",
+                "name": "Data Magna",
+                "state": "PE",
+                "type": "Estadual"
+            },
+            {
+                "date": "2026-03-13",
+                "name": "Batalha do Jenipapo",
+                "state": "PI",
+                "type": "Estadual"
+            },
+            {
+                "date": "2026-03-18",
+                "name": "Autonomia do Estado",
+                "state": "TO",
+                "type": "Estadual"
+            },
+            {
+                "date": "2026-03-19",
+                "name": "Dia de São José",
+                "state": "CE",
+                "type": "Estadual"
+            },
+            {
+                "date": "2026-03-25",
+                "name": "Data Magna",
+                "state": "CE",
+                "type": "Estadual"
+            },
+            {
+                "date": "2026-04-21",
+                "name": "Data Magna",
+                "state": "MG",
+                "type": "Estadual"
+            },
+            {
+                "date": "2026-04-23",
+                "name": "Dia de São Jorge",
+                "state": "RJ",
+                "type": "Estadual"
+            },
+            {
+                "date": "2026-06-15",
+                "name": "Aniversário do Estado",
+                "state": "AC",
+                "type": "Estadual"
+            },
+            {
+                "date": "2026-06-24",
+                "name": "Dia de São João",
+                "state": "AL",
+                "type": "Estadual"
+            },
+            {
+                "date": "2026-06-24",
+                "name": "Dia de São João",
+                "state": "PE",
+                "type": "Estadual"
+            },
+            {
+                "date": "2026-07-02",
+                "name": "Independência da Bahia",
+                "state": "BA",
+                "type": "Estadual"
+            },
+            {
+                "date": "2026-07-08",
+                "name": "Autonomia Política",
+                "state": "SE",
+                "type": "Estadual"
+            },
+            {
+                "date": "2026-07-09",
+                "name": "Revolução Constitucionalista",
+                "state": "SP",
+                "type": "Estadual"
+            },
+            {
+                "date": "2026-07-26",
+                "name": "Data Magna",
+                "state": "PB",
+                "type": "Estadual"
+            },
+            {
+                "date": "2026-08-05",
+                "name": "Fundação do Estado",
+                "state": "PB",
+                "type": "Estadual"
+            },
+            {
+                "date": "2026-08-06",
+                "name": "Revolução Acreana",
+                "state": "AC",
+                "type": "Estadual"
+            },
+            {
+                "date": "2026-08-11",
+                "name": "Criação da Capitania",
+                "state": "SC",
+                "type": "Estadual"
+            },
+            {
+                "date": "2026-08-15",
+                "name": "Adesão do Pará",
+                "state": "PA",
+                "type": "Estadual"
+            },
+            {
+                "date": "2026-09-05",
+                "name": "Elevação do Amazonas",
+                "state": "AM",
+                "type": "Estadual"
+            },
+            {
+                "date": "2026-09-13",
+                "name": "Criação do Território",
+                "state": "AP",
+                "type": "Estadual"
+            },
+            {
+                "date": "2026-09-16",
+                "name": "Emancipação Política",
+                "state": "AL",
+                "type": "Estadual"
+            },
+            {
+                "date": "2026-09-20",
+                "name": "Revolução Farroupilha",
+                "state": "RS",
+                "type": "Estadual"
+            },
+            {
+                "date": "2026-10-05",
+                "name": "Criação do Estado",
+                "state": "TO",
+                "type": "Estadual"
+            },
+            {
+                "date": "2026-10-11",
+                "name": "Criação do Estado",
+                "state": "MS",
+                "type": "Estadual"
+            },
+            {
+                "date": "2026-10-19",
+                "name": "Dia do Piauí",
+                "state": "PI",
+                "type": "Estadual"
+            },
+            {
+                "date": "2026-11-30",
+                "name": "Dia do Evangélico",
+                "state": "DF",
+                "type": "Estadual"
+            },
+            {
+                "date": "2026-12-19",
+                "name": "Emancipação Política",
+                "state": "PR",
+                "type": "Estadual"
+            }
+        ],
+        "judiciary": [
+            {
+                "date": "2026-08-11",
+                "name": "Dia do Advogado / Criação dos Cursos Jurídicos",
+                "type": "Judiciário"
+            },
+            {
+                "date": "2026-11-01",
+                "name": "Dia de Todos os Santos",
+                "type": "Judiciário"
+            },
+            {
+                "date": "2026-12-08",
+                "name": "Dia da Justiça",
+                "type": "Judiciário"
+            },
+            {
+                "date": "2026-10-28",
+                "name": "Dia do Servidor Público",
+                "type": "Judiciário (Ponto Facultativo)"
+            },
+            {
+                "date": "2026-12-20",
+                "name": "Recesso Forense",
+                "type": "Judiciário"
+            },
+            {
+                "date": "2026-12-21",
+                "name": "Recesso Forense",
+                "type": "Judiciário"
+            },
+            {
+                "date": "2026-12-22",
+                "name": "Recesso Forense",
+                "type": "Judiciário"
+            },
+            {
+                "date": "2026-12-23",
+                "name": "Recesso Forense",
+                "type": "Judiciário"
+            },
+            {
+                "date": "2026-12-24",
+                "name": "Recesso Forense",
+                "type": "Judiciário"
+            },
+            {
+                "date": "2026-12-25",
+                "name": "Recesso Forense",
+                "type": "Judiciário"
+            },
+            {
+                "date": "2026-12-26",
+                "name": "Recesso Forense",
+                "type": "Judiciário"
+            },
+            {
+                "date": "2026-12-27",
+                "name": "Recesso Forense",
+                "type": "Judiciário"
+            },
+            {
+                "date": "2026-12-28",
+                "name": "Recesso Forense",
+                "type": "Judiciário"
+            },
+            {
+                "date": "2026-12-29",
+                "name": "Recesso Forense",
+                "type": "Judiciário"
+            },
+            {
+                "date": "2026-12-30",
+                "name": "Recesso Forense",
+                "type": "Judiciário"
+            },
+            {
+                "date": "2026-12-31",
+                "name": "Recesso Forense",
+                "type": "Judiciário"
+            },
+            {
+                "date": "2026-01-01",
+                "name": "Recesso Forense",
+                "type": "Judiciário"
+            },
+            {
+                "date": "2026-01-02",
+                "name": "Recesso Forense",
+                "type": "Judiciário"
+            },
+            {
+                "date": "2026-01-03",
+                "name": "Recesso Forense",
+                "type": "Judiciário"
+            },
+            {
+                "date": "2026-01-04",
+                "name": "Recesso Forense",
+                "type": "Judiciário"
+            },
+            {
+                "date": "2026-01-05",
+                "name": "Recesso Forense",
+                "type": "Judiciário"
+            },
+            {
+                "date": "2026-01-06",
+                "name": "Recesso Forense",
+                "type": "Judiciário"
+            },
+            {
+                "date": "2026-04-01",
+                "name": "Semana Santa",
+                "type": "Judiciário"
+            },
+            {
+                "date": "2026-04-02",
+                "name": "Semana Santa",
+                "type": "Judiciário"
+            },
+            {
+                "date": "2026-04-03",
+                "name": "Semana Santa",
+                "type": "Judiciário"
+            }
+        ],
+        "municipal": [
+            {
+                "city": "Aracaju",
+                "state": "SE",
+                "date": "2026-03-17",
+                "name": "Aniversário de Aracaju",
+                "type": "Municipal"
+            },
+            {
+                "city": "Belém",
+                "state": "PA",
+                "date": "2026-01-12",
+                "name": "Aniversário de Belém",
+                "type": "Municipal"
+            },
+            {
+                "city": "Belo Horizonte",
+                "state": "MG",
+                "date": "2026-12-12",
+                "name": "Aniversário de Belo Horizonte",
+                "type": "Municipal"
+            },
+            {
+                "city": "Boa Vista",
+                "state": "RR",
+                "date": "2026-07-09",
+                "name": "Aniversário de Boa Vista",
+                "type": "Municipal"
+            },
+            {
+                "city": "Brasília",
+                "state": "DF",
+                "date": "2026-04-21",
+                "name": "Aniversário de Brasília",
+                "type": "Municipal"
+            },
+            {
+                "city": "Campo Grande",
+                "state": "MS",
+                "date": "2026-08-26",
+                "name": "Aniversário de Campo Grande",
+                "type": "Municipal"
+            },
+            {
+                "city": "Cuiabá",
+                "state": "MT",
+                "date": "2026-04-08",
+                "name": "Aniversário de Cuiabá",
+                "type": "Municipal"
+            },
+            {
+                "city": "Curitiba",
+                "state": "PR",
+                "date": "2026-03-29",
+                "name": "Aniversário de Curitiba",
+                "type": "Municipal"
+            },
+            {
+                "city": "Florianópolis",
+                "state": "SC",
+                "date": "2026-03-23",
+                "name": "Aniversário de Florianópolis",
+                "type": "Municipal"
+            },
+            {
+                "city": "Fortaleza",
+                "state": "CE",
+                "date": "2026-04-13",
+                "name": "Aniversário de Fortaleza",
+                "type": "Municipal"
+            },
+            {
+                "city": "Goiânia",
+                "state": "GO",
+                "date": "2026-10-24",
+                "name": "Aniversário de Goiânia",
+                "type": "Municipal"
+            },
+            {
+                "city": "João Pessoa",
+                "state": "PB",
+                "date": "2026-08-05",
+                "name": "Aniversário de João Pessoa",
+                "type": "Municipal"
+            },
+            {
+                "city": "Macapá",
+                "state": "AP",
+                "date": "2026-02-04",
+                "name": "Aniversário de Macapá",
+                "type": "Municipal"
+            },
+            {
+                "city": "Maceió",
+                "state": "AL",
+                "date": "2026-12-05",
+                "name": "Aniversário de Maceió",
+                "type": "Municipal"
+            },
+            {
+                "city": "Manaus",
+                "state": "AM",
+                "date": "2026-10-24",
+                "name": "Aniversário de Manaus",
+                "type": "Municipal"
+            },
+            {
+                "city": "Natal",
+                "state": "RN",
+                "date": "2026-12-25",
+                "name": "Aniversário de Natal",
+                "type": "Municipal"
+            },
+            {
+                "city": "Palmas",
+                "state": "TO",
+                "date": "2026-05-20",
+                "name": "Aniversário de Palmas",
+                "type": "Municipal"
+            },
+            {
+                "city": "Porto Alegre",
+                "state": "RS",
+                "date": "2026-03-26",
+                "name": "Aniversário de Porto Alegre",
+                "type": "Municipal"
+            },
+            {
+                "city": "Porto Velho",
+                "state": "RO",
+                "date": "2026-10-02",
+                "name": "Aniversário de Porto Velho",
+                "type": "Municipal"
+            },
+            {
+                "city": "Recife",
+                "state": "PE",
+                "date": "2026-03-12",
+                "name": "Aniversário de Recife",
+                "type": "Municipal"
+            },
+            {
+                "city": "Rio Branco",
+                "state": "AC",
+                "date": "2026-12-28",
+                "name": "Aniversário de Rio Branco",
+                "type": "Municipal"
+            },
+            {
+                "city": "Rio de Janeiro",
+                "state": "RJ",
+                "date": "2026-01-20",
+                "name": "Dia de São Sebastião",
+                "type": "Municipal"
+            },
+            {
+                "city": "Rio de Janeiro",
+                "state": "RJ",
+                "date": "2026-03-01",
+                "name": "Aniversário do Rio de Janeiro",
+                "type": "Municipal"
+            },
+            {
+                "city": "Salvador",
+                "state": "BA",
+                "date": "2026-03-29",
+                "name": "Aniversário de Salvador",
+                "type": "Municipal"
+            },
+            {
+                "city": "São Luís",
+                "state": "MA",
+                "date": "2026-09-08",
+                "name": "Aniversário de São Luís",
+                "type": "Municipal"
+            },
+            {
+                "city": "São Paulo",
+                "state": "SP",
+                "date": "2026-01-25",
+                "name": "Aniversário de São Paulo",
+                "type": "Municipal"
+            },
+            {
+                "city": "Teresina",
+                "state": "PI",
+                "date": "2026-08-16",
+                "name": "Aniversário de Teresina",
+                "type": "Municipal"
+            },
+            {
+                "city": "Vitória",
+                "state": "ES",
+                "date": "2026-09-08",
+                "name": "Aniversário de Vitória",
+                "type": "Municipal"
+            }
+        ]
+    },
+    "2027": {
+        "national": [
+            {
+                "date": "2027-01-01",
+                "name": "Confraternização Universal",
+                "type": "Nacional"
+            },
+            {
+                "date": "2027-02-09",
+                "name": "Carnaval",
+                "type": "Nacional (Ponto Facultativo)"
+            },
+            {
+                "date": "2027-03-26",
+                "name": "Sexta-feira Santa",
+                "type": "Nacional"
+            },
+            {
+                "date": "2027-04-21",
+                "name": "Tiradentes",
+                "type": "Nacional"
+            },
+            {
+                "date": "2027-05-01",
+                "name": "Dia do Trabalho",
+                "type": "Nacional"
+            },
+            {
+                "date": "2027-05-27",
+                "name": "Corpus Christi",
+                "type": "Nacional (Ponto Facultativo)"
+            },
+            {
+                "date": "2027-09-07",
+                "name": "Independência do Brasil",
+                "type": "Nacional"
+            },
+            {
+                "date": "2027-10-12",
+                "name": "Nossa Senhora Aparecida",
+                "type": "Nacional"
+            },
+            {
+                "date": "2027-11-02",
+                "name": "Finados",
+                "type": "Nacional"
+            },
+            {
+                "date": "2027-11-15",
+                "name": "Proclamação da República",
+                "type": "Nacional"
+            },
+            {
+                "date": "2027-11-20",
+                "name": "Dia de Zumbi e da Consciência Negra",
+                "type": "Nacional"
+            },
+            {
+                "date": "2027-12-25",
+                "name": "Natal",
+                "type": "Nacional"
+            }
+        ],
+        "state": [
+            {
+                "date": "2027-01-04",
+                "name": "Criação do Estado",
+                "state": "RO",
+                "type": "Estadual"
+            },
+            {
+                "date": "2027-03-06",
+                "name": "Data Magna",
+                "state": "PE",
+                "type": "Estadual"
+            },
+            {
+                "date": "2027-03-13",
+                "name": "Batalha do Jenipapo",
+                "state": "PI",
+                "type": "Estadual"
+            },
+            {
+                "date": "2027-03-18",
+                "name": "Autonomia do Estado",
+                "state": "TO",
+                "type": "Estadual"
+            },
+            {
+                "date": "2027-03-19",
+                "name": "Dia de São José",
+                "state": "CE",
+                "type": "Estadual"
+            },
+            {
+                "date": "2027-03-25",
+                "name": "Data Magna",
+                "state": "CE",
+                "type": "Estadual"
+            },
+            {
+                "date": "2027-04-21",
+                "name": "Data Magna",
+                "state": "MG",
+                "type": "Estadual"
+            },
+            {
+                "date": "2027-04-23",
+                "name": "Dia de São Jorge",
+                "state": "RJ",
+                "type": "Estadual"
+            },
+            {
+                "date": "2027-06-15",
+                "name": "Aniversário do Estado",
+                "state": "AC",
+                "type": "Estadual"
+            },
+            {
+                "date": "2027-06-24",
+                "name": "Dia de São João",
+                "state": "AL",
+                "type": "Estadual"
+            },
+            {
+                "date": "2027-06-24",
+                "name": "Dia de São João",
+                "state": "PE",
+                "type": "Estadual"
+            },
+            {
+                "date": "2027-07-02",
+                "name": "Independência da Bahia",
+                "state": "BA",
+                "type": "Estadual"
+            },
+            {
+                "date": "2027-07-08",
+                "name": "Autonomia Política",
+                "state": "SE",
+                "type": "Estadual"
+            },
+            {
+                "date": "2027-07-09",
+                "name": "Revolução Constitucionalista",
+                "state": "SP",
+                "type": "Estadual"
+            },
+            {
+                "date": "2027-07-26",
+                "name": "Data Magna",
+                "state": "PB",
+                "type": "Estadual"
+            },
+            {
+                "date": "2027-08-05",
+                "name": "Fundação do Estado",
+                "state": "PB",
+                "type": "Estadual"
+            },
+            {
+                "date": "2027-08-06",
+                "name": "Revolução Acreana",
+                "state": "AC",
+                "type": "Estadual"
+            },
+            {
+                "date": "2027-08-11",
+                "name": "Criação da Capitania",
+                "state": "SC",
+                "type": "Estadual"
+            },
+            {
+                "date": "2027-08-15",
+                "name": "Adesão do Pará",
+                "state": "PA",
+                "type": "Estadual"
+            },
+            {
+                "date": "2027-09-05",
+                "name": "Elevação do Amazonas",
+                "state": "AM",
+                "type": "Estadual"
+            },
+            {
+                "date": "2027-09-13",
+                "name": "Criação do Território",
+                "state": "AP",
+                "type": "Estadual"
+            },
+            {
+                "date": "2027-09-16",
+                "name": "Emancipação Política",
+                "state": "AL",
+                "type": "Estadual"
+            },
+            {
+                "date": "2027-09-20",
+                "name": "Revolução Farroupilha",
+                "state": "RS",
+                "type": "Estadual"
+            },
+            {
+                "date": "2027-10-05",
+                "name": "Criação do Estado",
+                "state": "TO",
+                "type": "Estadual"
+            },
+            {
+                "date": "2027-10-11",
+                "name": "Criação do Estado",
+                "state": "MS",
+                "type": "Estadual"
+            },
+            {
+                "date": "2027-10-19",
+                "name": "Dia do Piauí",
+                "state": "PI",
+                "type": "Estadual"
+            },
+            {
+                "date": "2027-11-30",
+                "name": "Dia do Evangélico",
+                "state": "DF",
+                "type": "Estadual"
+            },
+            {
+                "date": "2027-12-19",
+                "name": "Emancipação Política",
+                "state": "PR",
+                "type": "Estadual"
+            }
+        ],
+        "judiciary": [
+            {
+                "date": "2027-08-11",
+                "name": "Dia do Advogado / Criação dos Cursos Jurídicos",
+                "type": "Judiciário"
+            },
+            {
+                "date": "2027-11-01",
+                "name": "Dia de Todos os Santos",
+                "type": "Judiciário"
+            },
+            {
+                "date": "2027-12-08",
+                "name": "Dia da Justiça",
+                "type": "Judiciário"
+            },
+            {
+                "date": "2027-10-28",
+                "name": "Dia do Servidor Público",
+                "type": "Judiciário (Ponto Facultativo)"
+            },
+            {
+                "date": "2027-12-20",
+                "name": "Recesso Forense",
+                "type": "Judiciário"
+            },
+            {
+                "date": "2027-12-21",
+                "name": "Recesso Forense",
+                "type": "Judiciário"
+            },
+            {
+                "date": "2027-12-22",
+                "name": "Recesso Forense",
+                "type": "Judiciário"
+            },
+            {
+                "date": "2027-12-23",
+                "name": "Recesso Forense",
+                "type": "Judiciário"
+            },
+            {
+                "date": "2027-12-24",
+                "name": "Recesso Forense",
+                "type": "Judiciário"
+            },
+            {
+                "date": "2027-12-25",
+                "name": "Recesso Forense",
+                "type": "Judiciário"
+            },
+            {
+                "date": "2027-12-26",
+                "name": "Recesso Forense",
+                "type": "Judiciário"
+            },
+            {
+                "date": "2027-12-27",
+                "name": "Recesso Forense",
+                "type": "Judiciário"
+            },
+            {
+                "date": "2027-12-28",
+                "name": "Recesso Forense",
+                "type": "Judiciário"
+            },
+            {
+                "date": "2027-12-29",
+                "name": "Recesso Forense",
+                "type": "Judiciário"
+            },
+            {
+                "date": "2027-12-30",
+                "name": "Recesso Forense",
+                "type": "Judiciário"
+            },
+            {
+                "date": "2027-12-31",
+                "name": "Recesso Forense",
+                "type": "Judiciário"
+            },
+            {
+                "date": "2027-01-01",
+                "name": "Recesso Forense",
+                "type": "Judiciário"
+            },
+            {
+                "date": "2027-01-02",
+                "name": "Recesso Forense",
+                "type": "Judiciário"
+            },
+            {
+                "date": "2027-01-03",
+                "name": "Recesso Forense",
+                "type": "Judiciário"
+            },
+            {
+                "date": "2027-01-04",
+                "name": "Recesso Forense",
+                "type": "Judiciário"
+            },
+            {
+                "date": "2027-01-05",
+                "name": "Recesso Forense",
+                "type": "Judiciário"
+            },
+            {
+                "date": "2027-01-06",
+                "name": "Recesso Forense",
+                "type": "Judiciário"
+            },
+            {
+                "date": "2027-03-24",
+                "name": "Semana Santa",
+                "type": "Judiciário"
+            },
+            {
+                "date": "2027-03-25",
+                "name": "Semana Santa",
+                "type": "Judiciário"
+            },
+            {
+                "date": "2027-03-26",
+                "name": "Semana Santa",
+                "type": "Judiciário"
+            }
+        ],
+        "municipal": [
+            {
+                "city": "Aracaju",
+                "state": "SE",
+                "date": "2027-03-17",
+                "name": "Aniversário de Aracaju",
+                "type": "Municipal"
+            },
+            {
+                "city": "Belém",
+                "state": "PA",
+                "date": "2027-01-12",
+                "name": "Aniversário de Belém",
+                "type": "Municipal"
+            },
+            {
+                "city": "Belo Horizonte",
+                "state": "MG",
+                "date": "2027-12-12",
+                "name": "Aniversário de Belo Horizonte",
+                "type": "Municipal"
+            },
+            {
+                "city": "Boa Vista",
+                "state": "RR",
+                "date": "2027-07-09",
+                "name": "Aniversário de Boa Vista",
+                "type": "Municipal"
+            },
+            {
+                "city": "Brasília",
+                "state": "DF",
+                "date": "2027-04-21",
+                "name": "Aniversário de Brasília",
+                "type": "Municipal"
+            },
+            {
+                "city": "Campo Grande",
+                "state": "MS",
+                "date": "2027-08-26",
+                "name": "Aniversário de Campo Grande",
+                "type": "Municipal"
+            },
+            {
+                "city": "Cuiabá",
+                "state": "MT",
+                "date": "2027-04-08",
+                "name": "Aniversário de Cuiabá",
+                "type": "Municipal"
+            },
+            {
+                "city": "Curitiba",
+                "state": "PR",
+                "date": "2027-03-29",
+                "name": "Aniversário de Curitiba",
+                "type": "Municipal"
+            },
+            {
+                "city": "Florianópolis",
+                "state": "SC",
+                "date": "2027-03-23",
+                "name": "Aniversário de Florianópolis",
+                "type": "Municipal"
+            },
+            {
+                "city": "Fortaleza",
+                "state": "CE",
+                "date": "2027-04-13",
+                "name": "Aniversário de Fortaleza",
+                "type": "Municipal"
+            },
+            {
+                "city": "Goiânia",
+                "state": "GO",
+                "date": "2027-10-24",
+                "name": "Aniversário de Goiânia",
+                "type": "Municipal"
+            },
+            {
+                "city": "João Pessoa",
+                "state": "PB",
+                "date": "2027-08-05",
+                "name": "Aniversário de João Pessoa",
+                "type": "Municipal"
+            },
+            {
+                "city": "Macapá",
+                "state": "AP",
+                "date": "2027-02-04",
+                "name": "Aniversário de Macapá",
+                "type": "Municipal"
+            },
+            {
+                "city": "Maceió",
+                "state": "AL",
+                "date": "2027-12-05",
+                "name": "Aniversário de Maceió",
+                "type": "Municipal"
+            },
+            {
+                "city": "Manaus",
+                "state": "AM",
+                "date": "2027-10-24",
+                "name": "Aniversário de Manaus",
+                "type": "Municipal"
+            },
+            {
+                "city": "Natal",
+                "state": "RN",
+                "date": "2027-12-25",
+                "name": "Aniversário de Natal",
+                "type": "Municipal"
+            },
+            {
+                "city": "Palmas",
+                "state": "TO",
+                "date": "2027-05-20",
+                "name": "Aniversário de Palmas",
+                "type": "Municipal"
+            },
+            {
+                "city": "Porto Alegre",
+                "state": "RS",
+                "date": "2027-03-26",
+                "name": "Aniversário de Porto Alegre",
+                "type": "Municipal"
+            },
+            {
+                "city": "Porto Velho",
+                "state": "RO",
+                "date": "2027-10-02",
+                "name": "Aniversário de Porto Velho",
+                "type": "Municipal"
+            },
+            {
+                "city": "Recife",
+                "state": "PE",
+                "date": "2027-03-12",
+                "name": "Aniversário de Recife",
+                "type": "Municipal"
+            },
+            {
+                "city": "Rio Branco",
+                "state": "AC",
+                "date": "2027-12-28",
+                "name": "Aniversário de Rio Branco",
+                "type": "Municipal"
+            },
+            {
+                "city": "Rio de Janeiro",
+                "state": "RJ",
+                "date": "2027-01-20",
+                "name": "Dia de São Sebastião",
+                "type": "Municipal"
+            },
+            {
+                "city": "Rio de Janeiro",
+                "state": "RJ",
+                "date": "2027-03-01",
+                "name": "Aniversário do Rio de Janeiro",
+                "type": "Municipal"
+            },
+            {
+                "city": "Salvador",
+                "state": "BA",
+                "date": "2027-03-29",
+                "name": "Aniversário de Salvador",
+                "type": "Municipal"
+            },
+            {
+                "city": "São Luís",
+                "state": "MA",
+                "date": "2027-09-08",
+                "name": "Aniversário de São Luís",
+                "type": "Municipal"
+            },
+            {
+                "city": "São Paulo",
+                "state": "SP",
+                "date": "2027-01-25",
+                "name": "Aniversário de São Paulo",
+                "type": "Municipal"
+            },
+            {
+                "city": "Teresina",
+                "state": "PI",
+                "date": "2027-08-16",
+                "name": "Aniversário de Teresina",
+                "type": "Municipal"
+            },
+            {
+                "city": "Vitória",
+                "state": "ES",
+                "date": "2027-09-08",
+                "name": "Aniversário de Vitória",
+                "type": "Municipal"
+            }
+        ]
+    }
+}
