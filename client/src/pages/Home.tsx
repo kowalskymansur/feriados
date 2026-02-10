@@ -88,7 +88,7 @@ export default function Home() {
       .catch((err) => console.error("Error loading holidays:", err));
   }, []);
 
-  // Get today's holidays
+  // Get today's holidays - always show national and judiciary holidays
   useEffect(() => {
     if (!holidays) return;
 
@@ -99,11 +99,11 @@ export default function Home() {
     if (yearData) {
       const todayHols: Holiday[] = [];
 
-      // National holidays
+      // National holidays - always show
       const national = yearData.national.find((h) => h.date === today);
       if (national) todayHols.push(national);
 
-      // State holidays
+      // State holidays - only if state is selected
       if (selectedState && selectedState !== "all") {
         const state = yearData.state.find(
           (h) => h.date === today && h.state === selectedState
@@ -111,11 +111,11 @@ export default function Home() {
         if (state) todayHols.push(state);
       }
 
-      // Judiciary holidays
+      // Judiciary holidays - always show
       const judiciary = yearData.judiciary.find((h) => h.date === today);
       if (judiciary) todayHols.push(judiciary);
 
-      // Municipal holidays
+      // Municipal holidays - only if city is selected
       if (selectedCity && selectedCity !== "all") {
         const municipal = yearData.municipal.find(
           (h) => h.date === today && h.city === selectedCity
@@ -210,40 +210,59 @@ export default function Home() {
       </div>
 
       <div className="container mx-auto py-8 px-4">
-        {/* Today's Holidays */}
-        {todayHolidays.length > 0 && (
-          <Card className="mb-8 border-2 border-green-200 bg-green-50">
-            <CardHeader>
-              <CardTitle className="text-green-800">Feriados de Hoje</CardTitle>
-              <CardDescription className="text-green-700">
-                {new Date().toLocaleDateString("pt-BR", {
-                  weekday: "long",
-                  year: "numeric",
-                  month: "long",
-                  day: "numeric",
-                })}
-              </CardDescription>
-            </CardHeader>
-            <CardContent>
+        {/* Today's Holidays - Always visible on load */}
+        <Card className={`mb-8 border-2 ${
+          todayHolidays.length > 0
+            ? "border-green-200 bg-gradient-to-r from-green-50 to-emerald-50"
+            : "border-gray-200 bg-gray-50"
+        }`}>
+          <CardHeader>
+            <CardTitle className={todayHolidays.length > 0 ? "text-green-800" : "text-gray-800"}>
+              Feriados de Hoje
+            </CardTitle>
+            <CardDescription className={todayHolidays.length > 0 ? "text-green-700" : "text-gray-600"}>
+              {new Date().toLocaleDateString("pt-BR", {
+                weekday: "long",
+                year: "numeric",
+                month: "long",
+                day: "numeric",
+              })}
+            </CardDescription>
+          </CardHeader>
+          <CardContent>
+            {todayHolidays.length > 0 ? (
               <div className="space-y-3">
                 {todayHolidays.map((holiday, idx) => (
                   <div
                     key={idx}
-                    className="flex items-center justify-between bg-white p-4 rounded-lg border border-green-200"
+                    className="flex items-center justify-between bg-white p-4 rounded-lg border border-green-200 hover:shadow-md transition-shadow"
                   >
-                    <div className="flex items-center gap-3">
-                      {getTypeIcon(holiday.type)}
-                      <div>
+                    <div className="flex items-center gap-3 flex-1">
+                      <div className={`p-2 rounded-lg ${getTypeColor(holiday.type)}`}>
+                        {getTypeIcon(holiday.type)}
+                      </div>
+                      <div className="flex-1">
                         <p className="font-semibold text-gray-800">{holiday.name}</p>
                         <p className="text-sm text-gray-600">{holiday.type}</p>
                       </div>
                     </div>
+                    <span className="text-xs font-medium bg-green-100 text-green-800 px-3 py-1 rounded-full">
+                      {holiday.date}
+                    </span>
                   </div>
                 ))}
               </div>
-            </CardContent>
-          </Card>
-        )}
+            ) : (
+              <div className="text-center py-6">
+                <Calendar className="w-8 h-8 text-gray-400 mx-auto mb-2" />
+                <p className="text-gray-600">Nenhum feriado hoje</p>
+                <p className="text-sm text-gray-500 mt-1">
+                  Selecione um estado ou cidade para ver feriados especificos
+                </p>
+              </div>
+            )}
+          </CardContent>
+        </Card>
 
         {/* Filters */}
         <Card className="mb-8">
