@@ -2,6 +2,7 @@ import { useState, useEffect, useMemo } from "react";
 import { Calendar, Filter, Search, MapPin, Briefcase } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
+import { NotificationSubscriptionModal } from "@/components/NotificationSubscriptionModal";
 import {
   Select,
   SelectContent,
@@ -210,6 +211,11 @@ export default function Home() {
       </div>
 
       <div className="container mx-auto py-8 px-4">
+        {/* Notification Subscription Button */}
+        <div className="mb-6 flex justify-end">
+          <NotificationSubscriptionModal />
+        </div>
+
         {/* Today's Holidays - Always visible on load */}
         <Card className={`mb-8 border-2 ${
           todayHolidays.length > 0
