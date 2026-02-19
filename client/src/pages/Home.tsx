@@ -127,6 +127,42 @@ export default function Home() {
     }
   }, [holidays, selectedState, selectedCity]);
 
+  // Converter data DD/MM/AAAA para AAAA-MM-DD
+  const convertDateFormat = (dateStr: string): string => {
+    // Remove caracteres não numéricos
+    const cleaned = dateStr.replace(/\D/g, '');
+    
+    // Se tem 8 dígitos, converter DD/MM/AAAA para AAAA-MM-DD
+    if (cleaned.length === 8) {
+      const day = cleaned.substring(0, 2);
+      const month = cleaned.substring(2, 4);
+      const year = cleaned.substring(4, 8);
+      return `${year}-${month}-${day}`;
+    }
+    
+    return dateStr;
+  };
+
+  // Formatar entrada de data com máscara DD/MM/AAAA
+  const handleSearchChange = (value: string) => {
+    // Remove tudo que não é número
+    let cleaned = value.replace(/\D/g, '');
+    
+    // Limita a 8 dígitos
+    cleaned = cleaned.substring(0, 8);
+    
+    // Formata com barras
+    let formatted = cleaned;
+    if (cleaned.length >= 2) {
+      formatted = cleaned.substring(0, 2) + '/' + cleaned.substring(2);
+    }
+    if (cleaned.length >= 4) {
+      formatted = cleaned.substring(0, 2) + '/' + cleaned.substring(2, 4) + '/' + cleaned.substring(4);
+    }
+    
+    setSearchTerm(formatted);
+  };
+
   // Filter holidays based on search and filters
   const filteredHolidays = useMemo(() => {
     if (!holidays) return [];
@@ -158,9 +194,11 @@ export default function Home() {
 
     // Filter by search term
     if (searchTerm) {
+      const convertedDate = convertDateFormat(searchTerm);
       allHolidays = allHolidays.filter(
         (h) =>
           h.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+          h.date.includes(convertedDate) ||
           h.date.includes(searchTerm)
       );
     }
@@ -358,9 +396,10 @@ export default function Home() {
               <div className="relative">
                 <Search className="absolute left-3 top-3 w-5 h-5 text-gray-400" />
                 <Input
-                  placeholder="Ex: Natal, 2026-12-25"
+                  type="text"
+                  placeholder="Ex: Natal ou DD/MM/AAAA"
                   value={searchTerm}
-                  onChange={(e) => setSearchTerm(e.target.value)}
+                  onChange={(e) => handleSearchChange(e.target.value)}
                   className="pl-10"
                 />
               </div>
