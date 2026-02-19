@@ -25,41 +25,4 @@ export const users = mysqlTable("users", {
 export type User = typeof users.$inferSelect;
 export type InsertUser = typeof users.$inferInsert;
 
-// Email subscriptions for holiday notifications
-export const emailSubscriptions = mysqlTable("emailSubscriptions", {
-  id: int("id").autoincrement().primaryKey(),
-  email: varchar("email", { length: 320 }).notNull().unique(),
-  states: text("states"), // JSON array of selected states
-  cities: text("cities"), // JSON array of selected cities
-  notificationType: mysqlEnum("notificationType", [
-    "all",
-    "national",
-    "state",
-    "municipal",
-    "judiciary",
-  ])
-    .default("all")
-    .notNull(),
-  daysBeforeNotification: int("daysBeforeNotification").default(7).notNull(), // Notify X days before
-  isActive: int("isActive").default(1).notNull(), // 1 = active, 0 = inactive
-  createdAt: timestamp("createdAt").defaultNow().notNull(),
-  updatedAt: timestamp("updatedAt").defaultNow().onUpdateNow().notNull(),
-});
-
-export type EmailSubscription = typeof emailSubscriptions.$inferSelect;
-export type InsertEmailSubscription = typeof emailSubscriptions.$inferInsert;
-
-// Notification log to track sent emails
-export const notificationLogs = mysqlTable("notificationLogs", {
-  id: int("id").autoincrement().primaryKey(),
-  subscriptionId: int("subscriptionId")
-    .notNull()
-    .references(() => emailSubscriptions.id),
-  holidayDate: varchar("holidayDate", { length: 10 }).notNull(), // YYYY-MM-DD
-  holidayName: varchar("holidayName", { length: 255 }).notNull(),
-  sentAt: timestamp("sentAt").defaultNow().notNull(),
-  status: mysqlEnum("status", ["sent", "failed", "bounced"]).default("sent").notNull(),
-});
-
-export type NotificationLog = typeof notificationLogs.$inferSelect;
-export type InsertNotificationLog = typeof notificationLogs.$inferInsert;
+// TODO: Add your tables here
