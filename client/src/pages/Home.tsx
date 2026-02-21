@@ -170,6 +170,16 @@ export default function Home() {
     const yearData = holidays[selectedYear];
     if (!yearData) return [];
 
+    // Se não há busca e não há filtros aplicados, retorna vazio
+    const hasSearch = searchTerm.trim() !== "";
+    const hasStateFilter = selectedState && selectedState !== "" && selectedState !== "all";
+    const hasCityFilter = selectedCity && selectedCity !== "" && selectedCity !== "all";
+    const hasTypeFilter = filterType !== "all";
+
+    if (!hasSearch && !hasStateFilter && !hasCityFilter && !hasTypeFilter) {
+      return [];
+    }
+
     let allHolidays: Holiday[] = [];
 
     // Add holidays based on filter type
