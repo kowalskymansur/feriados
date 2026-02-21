@@ -2,7 +2,7 @@
 
 Um calendário web interativo e completo com todos os feriados brasileiros para os anos 2026 e 2027. Consulte feriados nacionais, estaduais, municipais e do poder judiciário com filtros avançados e busca por data.
 
-**🌐 Acesse o site:** [Calendário de Feriados Brasil](https://calendario-feriados-brasil.manus.space)
+**🌐 Acesse o site:** [Calendário de Feriados Brasil](https://kowalskymansur.github.io/feriados/client/index.html)
 
 ---
 
@@ -39,7 +39,7 @@ Um calendário web interativo e completo com todos os feriados brasileiros para 
 ## 🚀 Como Usar
 
 ### Acessar o Site
-1. Abra o navegador e acesse: [Calendário de Feriados Brasil](https://calendario-feriados-brasil.manus.space)
+1. Abra o navegador e acesse: [Calendário de Feriados Brasil](https://kowalskymansur.github.io/feriados/client/index.html)
 2. A página abre vazia - nenhum feriado é exibido até você aplicar um filtro
 
 ### Buscar Feriados por Data
@@ -317,5 +317,3 @@ Se você tiver dúvidas ou encontrar problemas ao usar o calendário, abra uma *
 - **21/02/2026**: Exibição automática de feriados de hoje
 
 ---
-
-**Desenvolvido com ❤️ para o Brasil**
